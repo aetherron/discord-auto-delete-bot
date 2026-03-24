@@ -4,7 +4,7 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds],
 });
 
-const TOKEN = "YOUR_BOT_TOKEN";
+const TOKEN = process.env.TOKEN;
 const TARGET_CHANNEL_ID = "1485818085012148344";
 
 client.once('ready', () => {
