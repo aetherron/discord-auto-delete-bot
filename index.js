@@ -7,7 +7,7 @@ const client = new Client({
   ],
 });
 
-const TOKEN = process.env.MTQ4NTgyNTQ5Mzg5ODEwMDgxNw.GKQBfx.tg8E-JehceW7yF_tTqnq3Twm4LLnVOxbQBuxjA;
+const TOKEN = process.env.TOKEN;
 const TARGET_CHANNEL_ID = "1485818085012148344";
 
 client.once('ready', () => {
